@@ -1,0 +1,153 @@
+ <!DOCTYPE html>
+ <html lang="ru">
+
+ <head>
+ 	<title>marketing</title>
+ 	<meta charset="UTF-8">
+ 	<meta name="format-detection" content="telephone=no">
+ 	<!-- <style>body{opacity: 0;}</style> -->
+ 	<link rel="stylesheet" href="css/style.min.css?_v=20231223231453">
+ 	<script src="https://code.jquery.com/jquery-2.2.4.min.js?_v=20231223231453"></script>
+ 	<link rel="shortcut icon" href="">
+ 	<link href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.2/css/font-awesome.min.css?_v=20231223231453' rel='stylesheet'>
+ 	<!-- <meta name="robots" content="noindex, nofollow"> -->
+ 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css?_v=20231223231453" />
+ 	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js?_v=20231223231453"></script>
+ 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+ </head>
+
+ <body>
+ 	<div class="wrapper">
+
+
+
+ 		<main class="page">
+ 			<section class="page__mrk">
+ 				<div class="mrk__container">
+ 					<a href="#" class="mrk__logo-body">
+ 						<div class="mrk__logo">
+ 							<img src="img/logo.svg" alt="">
+ 						</div>
+
+ 					</a>
+ 					<div class="mrk__block">
+ 						<div class="mrk__title fw7">
+ 							CONNECTION PEOPLE
+ 						</div>
+ 						<div class="mrk__podtitle fw7">
+ 							Зарегистрируйся сейчас и получи <d>300 coin people</d>
+ 						</div>
+ 						<div class="mrk__text fw7">
+ 							Реклама , заработок, краудфандинг в <d>одном месте</d>
+ 						</div>
+ 						<div class="mrk__btns">
+ 							<a href="#" class="mrk__btn-reg">
+ 								Регистрация
+ 							</a>
+ 							<a href="#" class="mrk__btn-vhod">
+ 								Войти
+ 							</a>
+ 						</div>
+ 					</div>
+ 				</div>
+ 			</section>
+ 		</main>
+
+
+
+ 	</div>
+ 	<div id="popup" aria-hidden="true" class="popup">
+ 		<div class="popup__wrapper">
+ 			<div class="popup__content">
+ 				<p data-close type="button" class="popup__close popup__close-ic">
+ 					<svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 22 22" fill="none">
+ 						<path opacity="0.5" d="M1 1L21 21M1 21L21 1" stroke="#042257" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+ 					</svg>
+ 				</p>
+ 				<div class="popup__title fw7">
+ 					Восстановление пароля
+ 				</div>
+ 				<div class="popup__text">
+ 					Укажите адрес электронной почты, который вы использовали при регистрации акаунта. Мы вышлем вам инструкцию по восстановлению пароля.
+ 				</div>
+ 				<form class="popup-form__email-log" action="files/sendmail/sendmail.php" method="POST">
+ 					<input type="text" data-quantity-max='5' name="form[email]" data-error="Error" placeholder="E-mail" class="popup-input">
+ 				</form>
+ 				<button class="popup__btn fw7">
+ 					Восстановить
+ 				</button>
+ 			</div>
+ 		</div>
+ 	</div>
+
+
+ 	<div id="popuptwo" aria-hidden="true" class="popup">
+ 		<div class="popup__wrapper">
+ 			<div class="popup__content popupreg__content ">
+ 				<div class="popup__title popupreg-title fw7">
+ 					Ваш аккаунт успешно создан
+ 				</div>
+ 				<div class="popup__text">
+ 					Теперь вы можете войти, используя свои учетные данные
+ 				</div>
+
+
+ 				<a href="" class="popupreg__btn fw7">
+ 					Войти
+ 				</a>
+
+
+ 			</div>
+ 		</div>
+ 	</div>
+ 	<div id="popupfree" aria-hidden="true" class="popup">
+ 		<div class="popup__wrapper">
+ 			<div class="popupfree__content popup__content">
+ 				<p data-close type="button" class="popup__close popup__close-ic">
+ 					<svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 22 22" fill="none">
+ 						<path opacity="0.5" d="M1 1L21 21M1 21L21 1" stroke="#042257" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+ 					</svg>
+ 				</p>
+ 				<div class="popup__title popupfree-title ">
+ 					Оплата
+ 				</div>
+ 				<div class="popup__text popupfree-text fw7">
+ 					100 ₽
+ 				</div>
+
+ 				<div class="from__body-free">
+ 					<form>
+ 						<input type="text" name="form[]" placeholder="Номер карты" class="pdj-new__input">
+ 					</form>
+ 					<div class="from__body-free-dop">
+ 						<form>
+ 							<input type="text" name="form[]" placeholder="ММ/ГГ" class="pdj-new__input">
+ 						</form>
+ 						<form>
+ 							<input type="text" name="form[]" placeholder="CVV" class="pdj-new__input">
+ 						</form>
+ 					</div>
+ 					<div class="form__body-checkbox">
+ 						<input type="checkbox" class="welcome-checkboxtwo" />
+ 						<p>
+ 							Отправить квитанцию на почту
+ 						</p>
+ 					</div>
+ 					<form>
+ 						<input type="text" name="form[]" placeholder="Почта" class="pdj-new__input">
+ 					</form>
+ 				</div>
+ 				<a href="" class="popupfree__btn btn-fiol fw7">
+ 					Оплатить
+ 				</a>
+
+
+ 			</div>
+ 		</div>
+ 	</div>
+
+ 	<script src="js/app.min.js?_v=20231223231453"></script>
+
+ </body>
+
+ </html>
